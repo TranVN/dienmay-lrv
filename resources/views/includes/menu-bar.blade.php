@@ -11,25 +11,25 @@
             </div>
             <div class="nav-bg-class">
                 <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
-	<div class="nav-outer">
-		<ul class="nav navbar-nav">
-			<li class="active dropdown yamm-fw">
-				<a href="index.php" data-hover="dropdown" class="dropdown-toggle">Trang Chủ</a>
-				
-			</li>
-			<li class="dropdown yamm">
-				<a href="/product-details">Máy Lạnh</a>
-			</li>
-            <li class="dropdown yamm">
-				<a href="category.php">Tủ Lạnh</a>
-			</li>
-            <li class="dropdown yamm">
-				<a href="category.php"> Máy Giặt</a>
-			</li>
-		</ul><!-- /.navbar-nav -->
-		<div class="clearfix"></div>				
-	</div>
-</div>
+                    <div class="nav-outer">
+                        <ul class="nav navbar-nav">
+                            <li class="active dropdown yamm-fw">
+                                <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Trang Chủ</a>
+                                
+                            </li>
+                            <li class="dropdown yamm">
+                                <a href="/product-details">Máy Lạnh</a>
+                            </li>
+                            <li class="dropdown yamm">
+                                <a href="category.php">Tủ Lạnh</a>
+                            </li>
+                            <li class="dropdown yamm">
+                                <a href="category.php"> Máy Giặt</a>
+                            </li>
+                        </ul><!-- /.navbar-nav -->
+                        <div class="clearfix"></div>				
+                    </div>
+                </div>
             </div>
         </div>
     </div>
