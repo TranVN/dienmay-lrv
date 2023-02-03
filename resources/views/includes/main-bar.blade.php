@@ -4,24 +4,24 @@
             <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
                 <!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
-<a href="index.php">
+<a href="/">
     
-    <h2><div class="item">
-                <a href="index.php" class="image">
-                    <img data-echo="{{asset('brandsimage/logo.png')}}" src="{{asset('assets/images/blank.gif')}}" alt="">
-                </a>	</h2>
+    <h2>
+        <div class="item">
+                <a href="/" class="image">
+                    <img data-echo="https://www.dienmaythoviet.com/wp-content/uploads/2020/04/logo-R-1-new-2.png" src="https://www.dienmaythoviet.com/wp-content/uploads/2020/04/logo-R-1-new-2.png" alt="" width="150px", height="81px">
+                </a>	
+    </h2>
 
 </a>
 </div>		
 </div>
 <div class="col-xs-12 col-sm-12 col-md-6 top-search-holder">
 <div class="search-area">
-<form name="search" method="post" action="search-result.php">
-    <div class="control-group">
-        <input class="search-field" placeholder="Search here..." name="product" required="required" />
-        <button class="search-button" type="submit" name="search"></button>    
-    </div>
-</form>
+    <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Tìm kiếm...">
+        <button class="btn btn-primary" type="button">Tìm Kiếm</button>
+      </form>
 </div><!-- /.search-area -->
 <!-- ============================================================= SEARCH AREA : END ============================================================= -->				</div><!-- /.top-search-holder -->
 

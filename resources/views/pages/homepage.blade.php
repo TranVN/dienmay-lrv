@@ -1,5 +1,7 @@
 @extends('layouts.applayout')
-
+@section('title') 
+<title>Điện Máy Thợ Việt - Cung Cấp hàng Chính Hãng</title>
+@endsection
 @section('content')
 <div class="furniture-container homepage-container">
     <div class="row">
@@ -119,7 +121,7 @@
                                     </div><!-- /.image -->		
                                 </div><!-- /.product-image -->
                                 <div class="product-info text-left">
-                                    <h3 class="name"><a href="product-details.php"></a></h3>
+                                    <h3 class="name"><a href="/product-details"></a></h3>
                                     <div class="rating rateit-small"></div>
                                     <div class="description"></div>
 
@@ -128,7 +130,7 @@
                                         <span class="price-before-discount">Rs.</span>
                                     </div><!-- /.product-price -->
                                 </div><!-- /.product-info -->
-                                <div class="action"><a href="index.php" class="lnk btn btn-primary">Add to Cart</a></div>
+                                <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add to Cart</a></div>
                             </div><!-- /.product -->
                         </div><!-- /.products -->
                     </div><!-- /.item -->
@@ -151,7 +153,7 @@
                                         <span class="price-before-discount">Rs.</span>
                                     </div><!-- /.product-price -->
                                 </div><!-- /.product-info -->
-                                <div class="action"><a href="index.php" class="lnk btn btn-primary">Add to Cart</a></div>
+                                <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add to Cart</a></div>
                             </div><!-- /.product -->
                         </div><!-- /.products -->
                     </div><!-- /.item -->
@@ -175,7 +177,7 @@
                                         <span class="price-before-discount">Rs.</span>
                                     </div><!-- /.product-price -->
                                 </div><!-- /.product-info -->
-                                <div class="action"><a href="index.php" class="lnk btn btn-primary">Add to Cart</a></div>
+                                <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add to Cart</a></div>
                             </div><!-- /.product -->
                         </div><!-- /.products -->
                     </div><!-- /.item -->
@@ -198,7 +200,7 @@
                                         <span class="price-before-discount">Rs.</span>
                                     </div><!-- /.product-price -->
                                 </div><!-- /.product-info -->
-                                <div class="action"><a href="index.php" class="lnk btn btn-primary">Add to Cart</a></div>
+                                <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add to Cart</a></div>
                             </div><!-- /.product -->
                         </div><!-- /.products -->
                     </div><!-- /.item --><div class="item item-carousel">
@@ -220,7 +222,7 @@
                                         <span class="price-before-discount">Rs.</span>
                                     </div><!-- /.product-price -->
                                 </div><!-- /.product-info -->
-                                <div class="action"><a href="index.php" class="lnk btn btn-primary">Add to Cart</a></div>
+                                <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add to Cart</a></div>
                             </div><!-- /.product -->
                         </div><!-- /.products -->
                     </div><!-- /.item -->
@@ -251,7 +253,7 @@
                                 <span class="price-before-discount">Rs.</span>					
                             </div>
                         </div>
-                        <div class="action"><a href="index.php" class="lnk btn btn-primary">Add to Cart</a></div>
+                        <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add to Cart</a></div>
                     </div>
                     
                 </div>
@@ -280,7 +282,7 @@
                                 <span class="price-before-discount">Rs.</span>					
                             </div>
                         </div>
-                        <div class="action"><a href="index.php" class="lnk btn btn-primary">Add to Cart</a></div>
+                        <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add to Cart</a></div>
                     </div>
                 </div>
             </div>
@@ -318,7 +320,7 @@
                             <div class="product-price">	
                                 <span class="price">Rs.</span>
                             </div><!-- /.product-price -->
-                            <div class="action"><a href="index.php" class="lnk btn btn-primary">Add To Cart</a></div>
+                            <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add To Cart</a></div>
                         </div>
                     </div><!-- /.col -->
                 </div><!-- /.product-micro-row -->
@@ -348,7 +350,7 @@
                             <div class="product-price">	
                                 <span class="price">Rs.</span>
                             </div><!-- /.product-price -->
-                            <div class="action"><a href="index.php" class="lnk btn btn-primary">Add To Cart</a></div>
+                            <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add To Cart</a></div>
                         </div>
                     </div><!-- /.col -->
                 </div><!-- /.product-micro-row -->
@@ -378,7 +380,7 @@
                             <div class="product-price">	
                                 <span class="price">Rs.</span>
                             </div><!-- /.product-price -->
-                            <div class="action"><a href="index.php" class="lnk btn btn-primary">Add To Cart</a></div>
+                            <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add To Cart</a></div>
                         </div>
                     </div><!-- /.col -->
                 </div><!-- /.product-micro-row -->
@@ -408,7 +410,7 @@
                             <div class="product-price">	
                                 <span class="price">Rs.</span>
                             </div><!-- /.product-price -->
-                            <div class="action"><a href="index.php" class="lnk btn btn-primary">Add To Cart</a></div>
+                            <div class="action"><a href="/my-cart" class="lnk btn btn-primary">Add To Cart</a></div>
                         </div>
                     </div><!-- /.col -->
                 </div><!-- /.product-micro-row -->

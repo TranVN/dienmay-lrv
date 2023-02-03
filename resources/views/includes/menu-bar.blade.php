@@ -1,36 +1,24 @@
-<div class="header-nav animate-dropdown">
-    <div class="container">
-        <div class="yamm navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button data-target="#mc-horizontal-menu-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="nav-bg-class">
-                <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
-                    <div class="nav-outer">
-                        <ul class="nav navbar-nav">
-                            <li class="active dropdown yamm-fw">
-                                <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Trang Chủ</a>
-                                
-                            </li>
-                            <li class="dropdown yamm">
-                                <a href="/product-details">Máy Lạnh</a>
-                            </li>
-                            <li class="dropdown yamm">
-                                <a href="category.php">Tủ Lạnh</a>
-                            </li>
-                            <li class="dropdown yamm">
-                                <a href="category.php"> Máy Giặt</a>
-                            </li>
-                        </ul><!-- /.navbar-nav -->
-                        <div class="clearfix"></div>				
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark container">
+    <div class="container-fluid">
+        
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto" style="font-size: 14px">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/category">Điện lạnh</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link</a></li>
+              <li><a class="dropdown-item" href="#">Another link</a></li>
+              <li><a class="dropdown-item" href="#">A third link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-</div>
+  </nav>
