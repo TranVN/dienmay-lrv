@@ -52,7 +52,8 @@ Route::get('/my-account', function () {
 Route::get('/order-history', function () {
     return view('layouts.order.order-history');
 });
-
+// Admin page
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 Route::get('/pageAdmin', function () {
     return view('admin.views.products.manage-products');
 });
@@ -85,4 +86,4 @@ Route::get('/admin-user-logs', function () {
 });
 Route::get('/admin-logout', function () {
     return view('admin.views.accounts.logout');
-});
+});});
